@@ -26,6 +26,8 @@
 		3EF3AD9A2BE57B6E0023530B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF3AD992BE57B6E0023530B /* Model.swift */; };
 		3EF3AD9C2BE580190023530B /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF3AD9B2BE580190023530B /* MenuView.swift */; };
 		3EF3AD9E2BE587B90023530B /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF3AD9D2BE587B90023530B /* Settings.swift */; };
+		3EF3ADA02BE591260023530B /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF3AD9F2BE591260023530B /* CameraView.swift */; };
+		3EF3ADA22BE5925B0023530B /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF3ADA12BE5925B0023530B /* CustomARView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		3EF3AD992BE57B6E0023530B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		3EF3AD9B2BE580190023530B /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		3EF3AD9D2BE587B90023530B /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		3EF3AD9F2BE591260023530B /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		3EF3ADA12BE5925B0023530B /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 				3EF3AD842BE570400023530B /* HomeView.swift */,
 				3EF3AD862BE5768F0023530B /* ControlView.swift */,
 				3EF3AD9B2BE580190023530B /* MenuView.swift */,
+				3EF3AD9F2BE591260023530B /* CameraView.swift */,
+				3EF3ADA12BE5925B0023530B /* CustomARView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -232,9 +238,11 @@
 				3EF3AD9C2BE580190023530B /* MenuView.swift in Sources */,
 				3EF3AD872BE5768F0023530B /* ControlView.swift in Sources */,
 				3EF3AD852BE570400023530B /* HomeView.swift in Sources */,
+				3EF3ADA22BE5925B0023530B /* CustomARView.swift in Sources */,
 				3EF3AD9E2BE587B90023530B /* Settings.swift in Sources */,
 				3EF3AD712BE56B490023530B /* ContentView.swift in Sources */,
 				3EF3AD6F2BE56B490023530B /* MenuARApp.swift in Sources */,
+				3EF3ADA02BE591260023530B /* CameraView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
