@@ -11,6 +11,8 @@
 		3EF3AD712BE56B490023530B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF3AD702BE56B490023530B /* ContentView.swift */; };
 		3EF3AD732BE56B520023530B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EF3AD722BE56B520023530B /* Assets.xcassets */; };
 		3EF3AD762BE56B520023530B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EF3AD752BE56B520023530B /* Preview Assets.xcassets */; };
+		3EF3AD7D2BE56CAE0023530B /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 3EF3AD7C2BE56CAE0023530B /* Readme.md */; };
+		3EF3AD802BE56F9C0023530B /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 3EF3AD7F2BE56F9C0023530B /* FocusEntity */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,7 @@
 		3EF3AD702BE56B490023530B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3EF3AD722BE56B520023530B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EF3AD752BE56B520023530B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3EF3AD7C2BE56CAE0023530B /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EF3AD802BE56F9C0023530B /* FocusEntity in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +55,12 @@
 		3EF3AD6D2BE56B490023530B /* MenuAR */ = {
 			isa = PBXGroup;
 			children = (
+				3EF3AD832BE56FCA0023530B /* Models */,
+				3EF3AD822BE56FC00023530B /* ViewModels */,
+				3EF3AD812BE56FBC0023530B /* Views */,
 				3EF3AD6E2BE56B490023530B /* MenuARApp.swift */,
 				3EF3AD702BE56B490023530B /* ContentView.swift */,
+				3EF3AD7C2BE56CAE0023530B /* Readme.md */,
 				3EF3AD722BE56B520023530B /* Assets.xcassets */,
 				3EF3AD742BE56B520023530B /* Preview Content */,
 			);
@@ -65,6 +73,27 @@
 				3EF3AD752BE56B520023530B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3EF3AD812BE56FBC0023530B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3EF3AD822BE56FC00023530B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3EF3AD832BE56FCA0023530B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +112,9 @@
 			dependencies = (
 			);
 			name = MenuAR;
+			packageProductDependencies = (
+				3EF3AD7F2BE56F9C0023530B /* FocusEntity */,
+			);
 			productName = MenuAR;
 			productReference = 3EF3AD6B2BE56B490023530B /* MenuAR.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +143,9 @@
 				Base,
 			);
 			mainGroup = 3EF3AD622BE56B490023530B;
+			packageReferences = (
+				3EF3AD7E2BE56F9C0023530B /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
 			productRefGroup = 3EF3AD6C2BE56B490023530B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +162,7 @@
 			files = (
 				3EF3AD762BE56B520023530B /* Preview Assets.xcassets in Resources */,
 				3EF3AD732BE56B520023530B /* Assets.xcassets in Resources */,
+				3EF3AD7D2BE56CAE0023530B /* Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +311,11 @@
 				DEVELOPMENT_TEAM = 49PNZ9QC53;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We want to access to you camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "arkit armv7";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -305,9 +343,11 @@
 				DEVELOPMENT_TEAM = 49PNZ9QC53;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We want to access to you camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "arkit armv7";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -346,6 +386,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3EF3AD7E2BE56F9C0023530B /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3EF3AD7F2BE56F9C0023530B /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3EF3AD7E2BE56F9C0023530B /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3EF3AD632BE56B490023530B /* Project object */;
 }
