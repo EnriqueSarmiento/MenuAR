@@ -72,7 +72,7 @@ struct Models {
    }
    
    /** this function will return an array of our model Model depending a category */
-   func get(category: ModelCategory) -> [Model]{
+   func get(category: ModelCategory) -> [Model]? {
       return all.filter({ $0.category == category})
    }
    

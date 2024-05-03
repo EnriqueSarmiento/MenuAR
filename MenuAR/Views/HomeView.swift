@@ -8,7 +8,10 @@
 import SwiftUI
 
 struct HomeView: View {
+   
+   @State private var showMenu: Bool = false
+   
     var body: some View {
-       ControlView()
+       ControlView(showMenu: $showMenu)
     }
 }
