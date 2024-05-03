@@ -27,6 +27,8 @@ struct GridView: View {
    /** this is for our lazy grid*/
    let gridItem = [GridItem(.fixed(150))]
    
+   @EnvironmentObject var settings: Setttings
+   
    var body: some View {
       VStack(alignment: .leading){
          Text(title).font(.title).padding(.leading, 22)
@@ -37,6 +39,9 @@ struct GridView: View {
                   let model = items[index]
                   Button {
                      print("debug: seleccionar modelo")
+                     model.loadModel()
+                     settings.selectedModel = model
+                     showMenu.toggle()
                   } label: {
                      Image(uiImage: model.thumbnail).resizable().aspectRatio(contentMode: .fill).frame(height: 200)
                         .background(Color.white).cornerRadius(8.0)

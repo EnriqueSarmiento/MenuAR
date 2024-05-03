@@ -41,6 +41,8 @@ class Model {
    /** Scale it is very important because with this value we know how to represent our data. So for each item/model/etc we need to change this scale to represet its size as in reality*/
    var scale: Float
    
+   var cancellable: AnyCancellable?
+   
    init(name: String, category: ModelCategory, scale: Float = 1.0){
       self.name = name
       self.category = category
@@ -49,8 +51,22 @@ class Model {
       self.thumbnail = UIImage(named: name) ?? UIImage(systemName: "photo")!
    }
    
+   /** here we load our model and printed on AR using ModelEntity*/
    func loadModel(){
-      
+      let findName = name + ".usdz"
+      print("DEBUG: find name ====>", findName)
+      cancellable = ModelEntity.loadModelAsync(named: findName).sink(receiveCompletion: { loadCompletion in
+         switch loadCompletion {
+         case .failure(let error):
+            print("DEBUG: error switch case loadmodel", error.localizedDescription)
+         case .finished:
+            print("DEBUG: succes on Loadmodel")
+            break
+         }
+      }, receiveValue: { modelEntity in
+         self.modelEntity = modelEntity
+         self.modelEntity?.scale *= self.scale
+      })
    }
 }
 

@@ -15,7 +15,7 @@ PROJECT WITH AUMENTED REALITY (AR) FEATURE ENABLED
 
 ## 2. UPLOAD ASSETS FOR AR
    - 1. Create a new group (folder) on your main directory 
-   - 2. locale your 3d assets and drag them to this new group. 
+   - 2. locale your 3d assets and drag them to this new group (ours has extension usdz). 
    - 3. then on you directory you will see each 3D assets, and you can move it and eveything to you to review how they will look. 
    **EXTRA BUT SOMETIME NEED IT **
    - 4. If you have thumbnails of your 3D assets, upload to your assets file on the root of your directory. Better if you create a folder overthere to not mess up other assets info. 

@@ -25,6 +25,7 @@
 		3EF3AD982BE579520023530B /* frambuesa.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3EF3AD902BE579510023530B /* frambuesa.usdz */; };
 		3EF3AD9A2BE57B6E0023530B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF3AD992BE57B6E0023530B /* Model.swift */; };
 		3EF3AD9C2BE580190023530B /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF3AD9B2BE580190023530B /* MenuView.swift */; };
+		3EF3AD9E2BE587B90023530B /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF3AD9D2BE587B90023530B /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		3EF3AD902BE579510023530B /* frambuesa.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = frambuesa.usdz; sourceTree = "<group>"; };
 		3EF3AD992BE57B6E0023530B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		3EF3AD9B2BE580190023530B /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		3EF3AD9D2BE587B90023530B /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		3EF3AD822BE56FC00023530B /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				3EF3AD9D2BE587B90023530B /* Settings.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				3EF3AD9C2BE580190023530B /* MenuView.swift in Sources */,
 				3EF3AD872BE5768F0023530B /* ControlView.swift in Sources */,
 				3EF3AD852BE570400023530B /* HomeView.swift in Sources */,
+				3EF3AD9E2BE587B90023530B /* Settings.swift in Sources */,
 				3EF3AD712BE56B490023530B /* ContentView.swift in Sources */,
 				3EF3AD6F2BE56B490023530B /* MenuARApp.swift in Sources */,
 			);

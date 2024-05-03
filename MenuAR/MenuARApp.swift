@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct MenuARApp: App {
+   @StateObject var settings = Setttings()
+   
     var body: some Scene {
         WindowGroup {
             ContentView()
+              .environmentObject(settings)
         }
     }
 }
