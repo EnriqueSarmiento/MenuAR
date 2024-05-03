@@ -11,3 +11,12 @@ PROJECT WITH AUMENTED REALITY (AR) FEATURE ENABLED
       a. go to the browser and find for focusEntity swift library and find for the url to use on the package manager of xcode. 
       b. open pakage manager and paste that url and download/install the library (https://github.com/maxxfrazer/FocusEntity)
       c. this will install the dependency to our project
+      
+
+## 2. UPLOAD ASSETS FOR AR
+   - 1. Create a new group (folder) on your main directory 
+   - 2. locale your 3d assets and drag them to this new group. 
+   - 3. then on you directory you will see each 3D assets, and you can move it and eveything to you to review how they will look. 
+   **EXTRA BUT SOMETIME NEED IT **
+   - 4. If you have thumbnails of your 3D assets, upload to your assets file on the root of your directory. Better if you create a folder overthere to not mess up other assets info. 
+   - 5. if you do not want to submit assets overthere on each scale, you can select the asset, open the right tab bar and look for the scales dropdown and select single scale. so you only need to submit one. 

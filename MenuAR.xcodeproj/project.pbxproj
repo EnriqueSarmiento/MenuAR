@@ -13,6 +13,16 @@
 		3EF3AD762BE56B520023530B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EF3AD752BE56B520023530B /* Preview Assets.xcassets */; };
 		3EF3AD7D2BE56CAE0023530B /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 3EF3AD7C2BE56CAE0023530B /* Readme.md */; };
 		3EF3AD802BE56F9C0023530B /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 3EF3AD7F2BE56F9C0023530B /* FocusEntity */; };
+		3EF3AD852BE570400023530B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF3AD842BE570400023530B /* HomeView.swift */; };
+		3EF3AD872BE5768F0023530B /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF3AD862BE5768F0023530B /* ControlView.swift */; };
+		3EF3AD912BE579510023530B /* hamburguesa.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3EF3AD892BE5794B0023530B /* hamburguesa.usdz */; };
+		3EF3AD922BE579510023530B /* fresa.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3EF3AD8A2BE5794C0023530B /* fresa.usdz */; };
+		3EF3AD932BE579510023530B /* carne.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3EF3AD8B2BE5794D0023530B /* carne.usdz */; };
+		3EF3AD942BE579520023530B /* pollo.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3EF3AD8C2BE5794E0023530B /* pollo.usdz */; };
+		3EF3AD952BE579520023530B /* cereza.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3EF3AD8D2BE5794F0023530B /* cereza.usdz */; };
+		3EF3AD962BE579520023530B /* vainilla.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3EF3AD8E2BE5794F0023530B /* vainilla.usdz */; };
+		3EF3AD972BE579520023530B /* pizza.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3EF3AD8F2BE579510023530B /* pizza.usdz */; };
+		3EF3AD982BE579520023530B /* frambuesa.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3EF3AD902BE579510023530B /* frambuesa.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		3EF3AD722BE56B520023530B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EF3AD752BE56B520023530B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3EF3AD7C2BE56CAE0023530B /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		3EF3AD842BE570400023530B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3EF3AD862BE5768F0023530B /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		3EF3AD892BE5794B0023530B /* hamburguesa.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = hamburguesa.usdz; sourceTree = "<group>"; };
+		3EF3AD8A2BE5794C0023530B /* fresa.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = fresa.usdz; sourceTree = "<group>"; };
+		3EF3AD8B2BE5794D0023530B /* carne.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = carne.usdz; sourceTree = "<group>"; };
+		3EF3AD8C2BE5794E0023530B /* pollo.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = pollo.usdz; sourceTree = "<group>"; };
+		3EF3AD8D2BE5794F0023530B /* cereza.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = cereza.usdz; sourceTree = "<group>"; };
+		3EF3AD8E2BE5794F0023530B /* vainilla.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = vainilla.usdz; sourceTree = "<group>"; };
+		3EF3AD8F2BE579510023530B /* pizza.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = pizza.usdz; sourceTree = "<group>"; };
+		3EF3AD902BE579510023530B /* frambuesa.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = frambuesa.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +75,7 @@
 		3EF3AD6D2BE56B490023530B /* MenuAR */ = {
 			isa = PBXGroup;
 			children = (
+				3EF3AD882BE579000023530B /* 3D Assets */,
 				3EF3AD832BE56FCA0023530B /* Models */,
 				3EF3AD822BE56FC00023530B /* ViewModels */,
 				3EF3AD812BE56FBC0023530B /* Views */,
@@ -78,6 +99,8 @@
 		3EF3AD812BE56FBC0023530B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3EF3AD842BE570400023530B /* HomeView.swift */,
+				3EF3AD862BE5768F0023530B /* ControlView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -94,6 +117,21 @@
 			children = (
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		3EF3AD882BE579000023530B /* 3D Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3EF3AD8B2BE5794D0023530B /* carne.usdz */,
+				3EF3AD8D2BE5794F0023530B /* cereza.usdz */,
+				3EF3AD902BE579510023530B /* frambuesa.usdz */,
+				3EF3AD8A2BE5794C0023530B /* fresa.usdz */,
+				3EF3AD892BE5794B0023530B /* hamburguesa.usdz */,
+				3EF3AD8F2BE579510023530B /* pizza.usdz */,
+				3EF3AD8C2BE5794E0023530B /* pollo.usdz */,
+				3EF3AD8E2BE5794F0023530B /* vainilla.usdz */,
+			);
+			path = "3D Assets";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,9 +198,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EF3AD962BE579520023530B /* vainilla.usdz in Resources */,
+				3EF3AD922BE579510023530B /* fresa.usdz in Resources */,
+				3EF3AD982BE579520023530B /* frambuesa.usdz in Resources */,
+				3EF3AD952BE579520023530B /* cereza.usdz in Resources */,
+				3EF3AD912BE579510023530B /* hamburguesa.usdz in Resources */,
 				3EF3AD762BE56B520023530B /* Preview Assets.xcassets in Resources */,
 				3EF3AD732BE56B520023530B /* Assets.xcassets in Resources */,
+				3EF3AD942BE579520023530B /* pollo.usdz in Resources */,
 				3EF3AD7D2BE56CAE0023530B /* Readme.md in Resources */,
+				3EF3AD972BE579520023530B /* pizza.usdz in Resources */,
+				3EF3AD932BE579510023530B /* carne.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EF3AD872BE5768F0023530B /* ControlView.swift in Sources */,
+				3EF3AD852BE570400023530B /* HomeView.swift in Sources */,
 				3EF3AD712BE56B490023530B /* ContentView.swift in Sources */,
 				3EF3AD6F2BE56B490023530B /* MenuARApp.swift in Sources */,
 			);

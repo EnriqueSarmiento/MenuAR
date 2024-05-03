@@ -9,12 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+       NavigationView{
+          NavigationLink(destination: HomeView()) {
+             Text("Abrir Menu aumentado")
+          }.buttonStyle(BorderedButtonStyle())
+             .tint(.blue)
+             .navigationTitle("Restaurant")
+       }
     }
 }
